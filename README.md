@@ -1,6 +1,24 @@
 # gitlab-usage-exporter
 This is an Prometheus Push-gateway exporter tool for Gitlab usage data, such as Total users, projects, groups, merger request and so on. It will send these data to Push-gateway.
 
+Exporter metrics for gitlab usage:
+- broadcast_messages
+- events
+- groups
+- hooks
+- issue_closed
+- issue_opened
+- issues
+- merge_requests
+- merge_requests_merged
+- merge_requests_opened
+- namespaces
+- projects
+- runners
+- snippets
+- todos
+- users
+
 ## Usage
 
 ### Set env
